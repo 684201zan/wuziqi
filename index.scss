@@ -1,0 +1,215 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.boxs{
+	width:100%;
+	background-image:url(img/beijing.jpg);
+	background-size:100% 100%;
+}
+.tupian{
+	width:520px;
+	height:520px;;
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	background-image:url(img/th.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:center center;
+  }
+.canvas{
+	position:absolute;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+	margin:auto;
+	background-image:url(img/wenli.jpg);
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	background-position:center center;
+	z-index:1;
+  }
+.da{
+	width:200px;
+	height:500px;
+	position:absolute;
+	top:70px;
+	left:1000px;
+    text-align:center;
+   .kaishishi{
+     line-height:60px;
+	     width:100%;
+	     height:60px;
+	     background-image:url(img/anniu.jpg);
+	     background-size:100% 100%;
+	     border-radius:10px;
+	     margin-top:50px;
+	     color:#fff;
+         font-size:30px;
+	  }
+    .chongzhi{
+      line-height:60px;
+         width:100%;
+	     height:60px;
+	     background-image:url(img/anniu.jpg);
+	     background-size:100% 100%;
+	     border-radius:10px;
+	     margin-top:50px;
+	     color:#fff;
+         font-size:30px;
+    }
+    .jieshao{
+      line-height:60px;
+         width:100%;
+	     height:60px;
+	     background-image:url(img/anniu.jpg);
+	     background-size:100% 100%;
+	     border-radius:10px;
+	     margin-top:50px;
+	     color:#fff;
+         font-size:30px;
+    }
+    .tuichu{
+      line-height:60px;
+         width:100%;
+	     height:60px;
+	     background-image:url(img/anniu.jpg);
+	     background-size:100% 100%;
+	     border-radius:10px;
+	     margin-top:50px;
+	     color:#fff;
+        font-size:30px;
+    }
+  }
+.tanchukuang{
+    width:300px;
+    height:200px;
+    background-image:url(img/w.jpg);
+    background-size:100% 100%;
+    position:absolute;
+    top:-1000px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    z-index:10;
+    transition:top .8s ease;
+    .diceng{
+       width:220px;
+       height:140px;
+       position:absolute;
+       top:0;
+       left:0;
+       right:0;
+       bottom:0;
+       margin:auto;
+       background-image:url(img/wenli.jpg);
+       background-size:100% 100%;
+       background-position:center center;
+      .title{
+       width:100%;
+       height:50px;
+       line-height:50px;
+       text-align:center;
+      }
+     .neirong{
+        width:100%;
+        height:40px;
+        line-height:20px;
+        text-align:center;
+     }
+    .zailai{
+       width:50%;
+       height:40px;
+       margin:0 auto;
+       background:#fff;
+       line-height:40px;
+       text-align:center;
+       border-radius:8px;
+       }
+   }
+   
+ }
+.guize{ 
+    display:none;  
+    width:200px;
+    height:200px;
+    background-image:url(img/w.jpg);
+    background-size:100% 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    margin:auto;
+    z-index:10;
+    .guizenei{
+       width:160px;
+       height:160px;
+       position:absolute;
+	    top:0;
+	    left:0;
+	    bottom:0;
+	    right:0;
+	    margin:auto;
+     }
+    }
+ .jihe{
+    display:none;
+     width:150px;
+     height:100px;
+     margin:0 auto;
+     margin-top:20px;
+     background-color:#999;
+     border-radius:20px;
+     position:relative;
+   .renji{
+       width:100%;
+       height:20px;
+       margin-top:10px;
+       padding-top:20px;
+       input{
+         margin-left:10px;
+       }
+     }
+    .shuangren{
+       width:100%;
+       height:20px;
+        input{
+         margin-left:10px;
+       }
+     }
+    .queren{
+       width:50px;
+       height:20px;
+       font-size:6px;
+       margin:0 auto;
+       background-color:#fff;
+      line-height:20px;
+      margin-top:10px;
+      border-radius:5px;
+     }
+   }
+.active{
+   display:block;
+   top:0;
+   }
+
+.mingzi{
+	width:200px;
+	height:500px;
+	position:absolute;
+	top:70px;
+	left:100px;
+	line-height:60px;
+    text-align:center;
+    background-image:url(img/wuziqi.png);
+   background-size:100% 100%;
+  border-radius:20px;
+}
